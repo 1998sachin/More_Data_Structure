@@ -4,7 +4,6 @@
 from collections import defaultdict
 
 
-
 # creates a size dictionary where size[i] = 1 (i being the node).
 # Size will be used as rank of the node
 def create_size(graph):
