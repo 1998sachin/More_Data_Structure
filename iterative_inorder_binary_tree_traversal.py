@@ -16,7 +16,7 @@ class TreeNode:
 
 # Iterative Inorder Traversal
 def iterative_inorder(root):
-	# 	if root is null 
+	# if root is null 
 	if root == None:
 		return
 
@@ -32,7 +32,7 @@ def iterative_inorder(root):
 				# no more left
 				root = mystack.pop()
 				'''
-					one can any thing here
+					one can do any thing here
 					I am printing the node
 				'''
 				print(root.data)
@@ -43,7 +43,7 @@ def iterative_inorder(root):
 # main starts
 '''
 	tree structure
-				  1
+                  1
 			   /	 \
 			  2       3
 			 / \     / \
