@@ -33,7 +33,7 @@ def find_left(inorder, postorder, pivot, start, end):
 
 
 def find_right(inorder, postorder, pivot, start, end):
-	# it finds all the nodes which are left of the parent(pivot)
+	# it finds all the nodes which are right of the parent(pivot)
 
 	# finds it in inorder-way
 	new_inorder = []
